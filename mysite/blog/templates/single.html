@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volleyball News - UZ Wolves</title>
+
+  {%load static%}
+  <link rel="stylesheet" href= "{% static "css/style.css" %}">
+ 
+</head>
+<body class="single_style">
+  <header>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        UZ Sports Bloggers
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="http://127.0.0.1:8000/" class="nav-link"><h2>Home</h2></a></li>
+        
+      </ul>
+     
+    </nav>
+  </header>
+   
+    <div class="profiles_style">
+
+        <div class="single_style">
+            <h1 style="text-align:center">{{post.title}}</h1>
+            <div class="single_image">
+              <img src="{{post.image.url}}" width= "50%", height="50%" style="float:center;">
+            </div>
+            <div class="single_content">
+              <p>{{post.content|safe}}</p><br>
+            </div>
+            
+            
+       </div>
+   </div>
+
+</div>
+</body>
+</html>

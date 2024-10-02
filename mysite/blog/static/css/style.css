@@ -1,0 +1,194 @@
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*body {
+   background-image: url('static/img/Soccerball.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}*/
+.navbar {
+    background-color:silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff4d4d; /* Light red */
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+  }
+  
+  .search-button {
+    padding: 0.5rem;
+    background-color:blueviolet;
+    color: cream;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color:white; 
+  }
+  
+  /*section img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }*/
+  
+  .profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .profile {
+    flex-basis: 31%;
+    /*width: 300px;*/
+    margin-bottom: 20px;
+    background-color: #a3e264;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    
+  }
+  
+  .profile img {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    border-radius: 5px;
+    /*justify-content: center;
+    align-items: center;*/
+  }
+  
+  .profile h1 {
+    margin-top: 10px;
+    color:pink;
+  }
+  
+  .profile p {
+    margin-top: 5px;
+    color: #333;
+  }
+  a {
+    color: black;
+  }
+  #fixtures img {
+    
+    max-width:100%;
+    height: auto;
+  }
+
+  #sports img {
+    
+    width:100%;
+    height: auto;
+  }
+
+  #results img { 
+    width:100%;
+    height: auto;
+    
+  }
+
+  .experiment_sports {
+    height: 5vh;
+  }
+
+  
+
+
+  @media(max-width: 700px){
+    .profiles{
+        flex-direction: column;
+    }
+}
+
+  
+.single_style{
+    background-color:rgb(239, 187, 144);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    float: center;
+}
+
+
+
+body.fixture {
+  background-image: url('/static/img/Sportsbackground.jpg');
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;
+  background-position: center;*/
+}
+
+
+
+.post-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#fixtures{
+  
+  width: 100%;
+}
+
+.single_image{
+  background-color: rgb(249, 246, 246);
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+/*.single_content{
+  background-color: rgb(248, 245, 245);
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}*/
